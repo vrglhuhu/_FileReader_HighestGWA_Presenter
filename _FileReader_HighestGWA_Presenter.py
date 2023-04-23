@@ -21,6 +21,9 @@ with open("name_gwa_data.txt", "r") as file_handle:
 # Initialize the highest GWA
 highest_gwa = 0
 # Iterate over the lines
+for line in lines:
+  # Split the line into name and GWA
+  name, gwa = line.split()
   # Convert the GWA to float
   # Compare the GWA with the highest GWA
     # Update the highest GWA
