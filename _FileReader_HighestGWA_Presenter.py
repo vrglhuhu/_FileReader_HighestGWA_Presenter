@@ -25,7 +25,11 @@ for line in lines:
   # Split the line into name and GWA
   name, gwa = line.split()
   # Convert the GWA to float
+  gwa = float(gwa)
   # Compare the GWA with the highest GWA
+  if gwa > highest_gwa:
+    # Update the highest GWA
+    highest_gwa = gwa
     # Update the highest GWA
     # Update the name
 # Print the result
