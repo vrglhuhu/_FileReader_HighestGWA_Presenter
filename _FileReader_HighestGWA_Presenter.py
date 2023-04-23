@@ -24,7 +24,7 @@ with open("name_gwa_data.txt", "r") as file_handle:
   # Read the file line by line
   lines = file_handle.readlines()
 # Initialize the highest GWA
-highest_gwa = 0
+highest_gwa = 5
 # Iterate over the lines
 for line in lines:
   # Split the line into name and GWA
@@ -32,13 +32,14 @@ for line in lines:
   # Convert the GWA to float
   gwa = float(gwa)
   # Compare the GWA with the highest GWA
-  if gwa > highest_gwa:
+  if gwa < highest_gwa :
     # Update the highest GWA
     highest_gwa = gwa
     # Update the name
     highest_name = name
 # Print the result
-print("The student with the highest GWA is", highest_name, "with a GWA of", highest_gwa)
+print(f"\033[40m\033[34mThe student with the highest GWA is", highest_name, "with a GWA of", highest_gwa, ".\033[0m")
+print("")
 # Create Footer
 print(f"\033[40m\033[33mThank you for your time, {name_user}! \033[0m")
 print("")
