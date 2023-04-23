@@ -15,7 +15,11 @@ print("=" * 80)
 print("\033[33mHi, I am Chean Bernard V. Vergel a first year college student at Polytechnic University of the Philippines.\033[0m")
 print("")
 # Open the file
+with open("name_gwa_data.txt", "r") as file_handle:
+  # Read the file line by line
+  lines = file_handle.readlines()
 # Initialize the highest GWA
+highest_gwa = 0
 # Iterate over the lines
   # Convert the GWA to float
   # Compare the GWA with the highest GWA
