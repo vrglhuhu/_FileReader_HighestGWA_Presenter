@@ -38,7 +38,7 @@ highest_gwa = 5
 for line in lines:
   
   # Split the line into name and GWA
-  name, gwa = line.split()
+  name, gwa = line.split(",")
 
   # Convert the GWA to float
   gwa = float(gwa)
