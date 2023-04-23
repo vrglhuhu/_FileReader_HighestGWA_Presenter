@@ -1,20 +1,20 @@
-Aritz, 1.00
-Maricon, 3.50
-Paulo, 2.17
-Eugene, 4.00
-Miguel, 3.25
-Derick 2.75
-Phoebe, 3.80
-Isabella, 3.90
-Jacob, 2.50
-Emily, 4.10
-Ethan, 3.20
-Ava, 3.85
-Abigail, 3.75
-Michael, 2.80
-Olivia, 4.20
-Alexander, 3.00
-Elizabeth, 4.05
-James, 3.50
-Charlotte, 3.95
-Liam, 2.75
+Aritz Delera, 1.00
+Maricon Laguting, 3.50
+Paulo Feranil, 2.17
+Eugene Calma, 4.00
+Miguel Discutido, 3.25
+Derick Herrera 2.75
+Phoebe Gangoso, 3.80
+Isabella Marquez, 3.90
+Jacob Mendoza, 2.50
+Emily Lazaro, 4.10
+Ethan Cruz, 3.20
+Ava Villanueva, 3.85
+Abigail Buenaventura, 3.75
+Michael Pangilinan, 2.80
+Olivia Sanchez, 4.20
+Alexander Hamilton, 3.00
+Elizabeth Refamonte, 4.05
+James Butuhan, 3.50
+Charlotte Torres, 3.95
+Liam Intacto, 2.75
