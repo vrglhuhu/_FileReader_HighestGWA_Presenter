@@ -55,8 +55,21 @@ for line in lines:
 # Print the result
 print(f"\033[40m\033[34mThe student with the highest GWA is", highest_name, "with a GWA of", highest_gwa, ".\033[0m")
 print("")
+print("")
+
+# Creating column for the names and GWA
+print("\033[40mHere is the list:\033[0m")
+print("")
+with open("name_gwa_data.txt") as column_file:
+  print("\033[0;32m{:<30}{:<30}".format("Student Name", "GWA"))
+  for line in column_file:
+    name, gwa = line.split(",")
+    column_name = name
+    column_gwa = gwa
+    print("\033[0;38m{:<30}{:<30}".format(column_name, column_gwa))
 
 # Create Footer
+print("")
 print(f"\033[40m\033[33mThank you for your time, {name_user}! \033[0m")
 print("")
 goodbye = pyfiglet.figlet_format("Visit me again", font = "digital" )
