@@ -31,7 +31,9 @@ for line in lines:
     # Update the highest GWA
     highest_gwa = gwa
     # Update the highest GWA
+    highest_name = name
     # Update the name
 # Print the result
+print('The student with the highest GWA is', highest_name, 'with a GWA of', highest_gwa)
 # Create Footer
 
