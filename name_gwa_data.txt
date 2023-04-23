@@ -1,4 +1,4 @@
-Aritz Delera, 1.00
+Aritz Delera, 4.00
 Maricon Laguting, 3.50
 Paulo Feranil, 2.17
 Eugene Calma, 4.00
@@ -13,7 +13,7 @@ Ava Villanueva, 3.85
 Abigail Buenaventura, 3.75
 Michael Pangilinan, 2.80
 Olivia Sanchez, 4.20
-Alexander Hamilton, 3.00
+Alexander Hamilton, 1.00
 Elizabeth Refamonte, 4.05
 James Butuhan, 3.50
 Charlotte Torres, 3.95

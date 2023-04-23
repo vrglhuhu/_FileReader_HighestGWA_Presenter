@@ -53,7 +53,11 @@ for line in lines:
     highest_name = name
 
 # Print the result
-print(f"\033[40m\033[34mThe student with the highest GWA is", highest_name, "with a GWA of", highest_gwa, ".\033[0m")
+print("\033[40m\033[34mThe student with highest GWA\033[0m")
+print("")
+print("\033[40m\033[32mStudent Name:\033[0m", highest_name )
+print("")
+print("\033[40m\033[32mGWA:\033[0m", highest_gwa )
 print("")
 print("")
 
